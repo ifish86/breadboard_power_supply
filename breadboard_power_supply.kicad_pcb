@@ -374,7 +374,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at -2.425 0 360)
+			(at -2.425 0 0)
 			(layer "F.SilkS")
 			(uuid "e33c2a38-b382-49d8-bcec-5f884119fd1f")
 			(effects
@@ -385,7 +385,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "185da1e1-d63c-4d99-a8d4-2993c24dbf1e")
 			(effects
@@ -552,7 +552,7 @@
 			(uuid "4edae3d6-e195-4219-8e42-af2220609ec6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "638a9237-7762-46e6-bbbc-88c04fade526")
 			(effects
@@ -599,7 +599,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
-			(at -2.6 0 360)
+			(at -2.6 0 0)
 			(layer "F.SilkS")
 			(uuid "1a28455e-a7bb-414a-9c7e-6ec4c78523a7")
 			(effects
@@ -610,7 +610,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f76828b1-a869-4169-a6d5-f7c09c0cb8fc")
 			(effects
@@ -777,7 +777,7 @@
 			(uuid "6899edc0-bbf8-408b-a051-8d89cd8eefe5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "49baf3d3-5caf-4d77-8e4e-8f6980d0c1bc")
 			(effects
@@ -824,7 +824,7 @@
 		(descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x03 2.54mm double row")
 		(property "Reference" "J3"
-			(at -2.4 -0.675 -90)
+			(at -2.4 -0.675 90)
 			(layer "F.SilkS")
 			(uuid "3078c69b-43b1-482e-b0ad-39624c870d6c")
 			(effects
@@ -835,7 +835,7 @@
 			)
 		)
 		(property "Value" "Conn_02x03_Odd_Even"
-			(at 1.27 7.41 -90)
+			(at 1.27 7.41 90)
 			(layer "F.Fab")
 			(uuid "0435359b-2bcd-4634-bb1e-54c5f94273e1")
 			(effects
@@ -1060,7 +1060,7 @@
 			(uuid "595cc2e2-d63c-4844-ad2b-7ccf02eacdf5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 2.54 180)
+			(at 1.27 2.54 360)
 			(layer "F.Fab")
 			(uuid "445c24c4-0e4d-48c3-8cb8-732db0ce034a")
 			(effects
@@ -1136,7 +1136,7 @@
 			(pintype "passive")
 			(uuid "f4840d92-81a0-42a9-b686-3ce021fdb54d")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1416,7 +1416,7 @@
 			(pintype "power_out")
 			(uuid "6d4fff36-e3bf-4100-996b-f26ab28349bd")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-89-3.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-89-3.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2917,7 +2917,7 @@
 			(pintype "passive")
 			(uuid "b001db8d-78c8-4b0f-82a3-b8c460817700")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3206,7 +3206,7 @@
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L1"
-			(at -2.7 0 360)
+			(at -2.7 0 0)
 			(layer "F.SilkS")
 			(uuid "85e3eb61-f100-4eac-993d-fb9af4724d34")
 			(effects
@@ -3217,7 +3217,7 @@
 			)
 		)
 		(property "Value" "4.7uH/800mA"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "06b50469-21ec-4664-8111-d2b5e5e21821")
 			(effects
@@ -3384,7 +3384,7 @@
 			(uuid "782aa5b3-1660-4268-9e38-c433a0d0cc2d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7bdf9a1e-2e82-4b14-bc34-e41e35df6969")
 			(effects
@@ -3883,7 +3883,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 0.6 -1.4 360)
+			(at 0.6 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "9aa1ad50-8ae7-4926-b974-b263e01b9920")
 			(effects
@@ -3894,7 +3894,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at -0.025 0 360)
+			(at -0.025 0 0)
 			(layer "F.Fab")
 			(uuid "80554644-fe23-44c4-a802-e0eaa1a86991")
 			(effects
@@ -4061,7 +4061,7 @@
 			(uuid "b2f4c2eb-0657-4dc7-823e-7f02dba642fa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "9cd88dfa-909d-46c9-9cbd-a9b06260c3ba")
 			(effects
@@ -4119,7 +4119,7 @@
 			)
 		)
 		(property "Value" "AP63205"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "d3a8a18b-35c1-425d-b9ad-c2582f7445ef")
 			(effects
@@ -4130,7 +4130,7 @@
 			)
 		)
 		(property "Footprint" "0IC_Interfaces:SOT-23-6"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "33129b28-a47d-4052-9ec8-b9d2110f4cf0")
@@ -4142,7 +4142,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200Q_AP63201Q_AP63203Q_AP63205Q.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1699a76c-2dec-4c03-9030-641dd0b40a8c")
@@ -4154,7 +4154,7 @@
 			)
 		)
 		(property "Description" "Buck Switching Regulator IC Positive Fixed 5V 1 Output 2A SOT-23-6 Thin, TSOT-23-6"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a86da8c5-7415-4547-9ba6-7a7423d6791d")
@@ -4325,7 +4325,7 @@
 			(uuid "a3a95db9-6957-4b2e-b561-ce31d54762d7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "76bb7529-c3e5-4d9c-a54e-a7ad80919931")
 			(effects
@@ -6112,7 +6112,7 @@
 		(locked yes)
 		(layer "B.Cu")
 		(uuid "5569c266-42f5-49ea-afe6-3f742785cd5f")
-		(at 183.2 95 180)
+		(at 183.48 95 180)
 		(descr "Through hole straight pin header, 2x02, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x02 2.54mm double row")
 		(property "Reference" "J2"
@@ -6428,7 +6428,7 @@
 		(locked yes)
 		(layer "B.Cu")
 		(uuid "de8bd9f6-d0d0-4a63-98a2-c1c3e406506e")
-		(at 139.34 95 180)
+		(at 139.06 95 180)
 		(descr "Through hole straight pin header, 2x02, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x02 2.54mm double row")
 		(property "Reference" "J1"
